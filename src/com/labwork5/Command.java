@@ -1,2 +1,11 @@
-package com.labwork5;public class Command {
+package com.labwork5;
+
+/**
+ * Command interface.
+ */
+public interface Command {
+    /**
+     * Execute the command.
+     */
+    void execute();
 }
